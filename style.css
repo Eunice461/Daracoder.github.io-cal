@@ -1,0 +1,280 @@
+body {
+    background: url("math1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 3px;
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    background: black;
+}
+
+.div2{
+    margin-top: 0;
+}
+.navbar li a:hover{
+    color: #000;
+}
+.section2 {
+    margin: 0%;
+}
+.div2-p {
+    color: white;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.p1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.p2{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.p3{
+    margin-top: 0;
+    font-size: 18px;
+    text-transform: capitalize;   
+}
+@media(max-width: 900px){
+    .navbar{
+        margin-top: 0;
+    }
+    .navbar ul {
+        overflow: hidden;
+        background: navy;
+    }
+    .navbar ul li {
+        list-style: none;
+    }
+    .navbar ul li a{
+        color: #ffffff;
+        display: block;
+        padding: 14px 16px;
+        text-transform: capitalize;
+        text-decoration: none;
+        word-break: break-word;
+        letter-spacing: 0.8px;
+        font-size: 17px;
+    }
+    .div1{
+        background: black;
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        color: white;
+    }
+    .img-div1 {
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    .img1-div1 {
+        margin-top: 25px;
+        margin-right: 15px;
+    }
+    .div1-p {
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    .div1-p p {
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    .input{
+        margin-left: 10px;
+        margin-top: 100px;
+        width: 50%;
+        color: black;
+    }
+    
+    .num1 {
+        width: 100%;
+        padding: 20px 22px;
+        border-left: 1px solid black;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+    .num2 {
+        width: 100%;
+        padding: 20px 22px;
+        border-left: 1px solid black;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+    .answer {
+        width: 30%;
+        padding: 12px 14px;
+        border-left: 1px solid black;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+    label {
+        text-transform: capitalize;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .btn1 {
+        background-color: black;
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 14px;
+        width: 45%;
+        padding: 14px 16px;
+    }
+    .btn2 {
+        background-color: black;
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 14px;
+        width: 50%;
+        padding: 14px 16px;
+    }
+    .btn3 {
+        background-color: black;
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 14px;
+        width: 50%;
+        padding: 14px 16px;
+    }
+    .btn4 {
+        background-color: black;
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 14px;
+        width: 30%;
+        padding: 14px 16px;
+    }
+    .btn {
+        margin-left: 1px;
+        margin-top: 30px;
+    }
+}
+
+@media(min-width: 901px){
+    .navbar{
+        margin-top: 0;
+    }
+    .navbar ul {
+        overflow: hidden;
+        background: navy;
+    }
+    .navbar ul li {
+        list-style: none;
+        float: left;
+    }
+    .navbar ul li a{
+        color: #ffffff;
+        display: block;
+        padding: 14px 16px;
+        text-transform: capitalize;
+        text-decoration: none;
+        word-break: break-word;
+        letter-spacing: 0.8px;
+        font-size: 17px;
+    }
+    .div1{
+        background: black;
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        color: white;
+    }
+    .img-div1 {
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    .img1-div1 {
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    .div1-p {
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    .div1-p p {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    .input{
+        margin-left: 100px;
+        margin-top: 100px;
+        width: 50%;
+        color: black;
+    }
+    
+    .num1 {
+        width: 30%;
+        padding: 20px 22px;
+        border-left: 1px solid black;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+    .num2 {
+        width: 30%;
+        padding: 20px 22px;
+        border-left: 1px solid black;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+    .answer {
+        width: 15%;
+        padding: 12px 14px;
+        border-left: 1px solid black;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+    label {
+        text-transform: capitalize;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .btn1 {
+        background-color: black;
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 17px;
+        width: 15%;
+        padding: 14px 16px;
+    }
+    .btn2 {
+        background-color: black;
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 17px;
+        width: 15%;
+        padding: 14px 16px;
+    }
+    .btn3 {
+        background-color: black;
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 17px;
+        width: 15%;
+        padding: 14px 16px;
+    }
+    .btn4 {
+        background-color: black;
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 17px;
+        width: 15%;
+        padding: 14px 16px;
+    }
+    .btn {
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+}
