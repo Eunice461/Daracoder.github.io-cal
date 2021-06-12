@@ -69,3 +69,9 @@ btn4.addEventListener('mouseout', () => {
         var answer = parseFloat(num1) / parseFloat(num2);
         document.getElementById("display-box").value = answer;
     }
+
+    $(document).ready(function(){
+        $('#icon').click(function(){
+            $('ul').toggleClass('show')
+        })
+    })
